@@ -8,7 +8,7 @@ app = Flask(__name__)
 WINDOW_SIZE = 10
 window = []
 
-BASE_URL = "http://localhost:5000/numbers"
+BASE_URL = "http://localhost:9876/numbers"
 
 @app.route('/numbers/<number_id>', methods=['GET'])
 def get_numbers(number_id):
